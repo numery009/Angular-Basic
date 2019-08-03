@@ -47,9 +47,13 @@ $ ng serve       ----------- run the dev server
 
 $ ng build       ----------- will build out our asset
 
-$ ng generate component todos  ---- to generate component 
+$ ng generate component components/todos  ---- to generate component 
 
-$ ng generate service todos    ---- to generate service
+$ ng g c components/todos  ---- to generate component 
+
+$ ng generate service services/todos    ---- to generate service
+
+$ ng g s services/todos    ---- to generate service
 
 $ ng generate module app-routing ---- to generate module
 
@@ -82,4 +86,7 @@ We can use state management like ngrx and redux with Angular for large apps
  
  5) App.Module.ts -- This is the entry point to angular. And this is the meeting place for all the components. If we have to add     a new component then we have to add on this file on the declarations. If we have to add a module then we have to add on the
     module. Provider will add all the services. Bootstrap will do the main app component. All the component will be type script       file. And it will be .ts .    
- 
+
+ 6) app.component.ts -- It has the selector which is the Html element. It also has the template url for the html and stylesheet       for the style sheet. We can add all the component over here.
+
+
