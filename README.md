@@ -67,9 +67,19 @@ We can use state management like ngrx and redux with Angular for large apps
         ng --version
         
         
+ # Project
+ 
  After creating a project we have to open the project on the visual studio. Then we will find the following files--
  
  1) Package.json -- It has all the dependencies and packages. (All the libraries will be available here. It also have scripts to       run and build the server.)
  
  2) Src -- This folder contains the main page. And that one is Index.html. This is the main page that load on the browser 
     <app-root></app-root> this is the tag the root app component.
+    
+ 3) Angular.json -- In this file we have to provide all the styles, scripts, assets. We can import bootstrap or anything on this     file. (We can do the same on the Index.html)
+ 
+ 4) App -- This folder inside the src folder. This folder contains all the component, services.
+ 
+ 5) App.Module.ts -- This is the entry point to angular. And this is the meeting place for all the components. If we have to add     a new component then we have to add on this file on the declarations. If we have to add a module then we have to add on the
+    module. Provider will add all the services. Bootstrap will do the main app component. All the component will be type script       file. And it will be .ts .    
+ 
