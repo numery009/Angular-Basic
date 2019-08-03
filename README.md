@@ -29,3 +29,29 @@ Java Script Fundamentals (Objects, arrays, conditions etc)
 4) Arrow Functions
 5) Promises & Observables
 6) MVC Pattern
+
+# Uses
+
+1) Uses TypeScript for static types (variables, functions, params)
+2) Component based (like other frameworks)
+3) Uses "services" to share data/fucntionality between components
+4) Concept of modules (root module, form modules, http module etc)
+5) Uses RxJS "observables" for async operations
+6) Steep learning curve relative to other frameworks.
+
+# Angular CLI
+
+$ ng new myapp   ----------- create a new application
+
+$ ng serve       ----------- run the dev server
+
+$ ng build       ----------- will build out our asset
+
+$ ng generate component todos  ---- to generate component 
+
+$ ng generate service todos    ---- to generate service
+
+$ ng generate module app-routing ---- to generate module
+
+
+We can use state management like ngrx and redux with Angular for large apps
