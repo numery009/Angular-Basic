@@ -7,3 +7,12 @@ AngularJS was released on 2010. It is not recommanded and should be updated to a
 
 Angular refers to version 2+. Right now we are using version 7 but 2-7 is the same frame work with few changes mostly under the hood.
 
+# Why user Angular
+
+1) Organized front-end structure(Component, Model, Services)
+2) Extremely powerful & full featured.
+3) All-in-one solution (Routing, HTTP, RXJS etc).
+4) Build powerful SPA (Single Page Application) apps
+5) MVC- model, view, controller design pattern
+6) Type Script 
+7) Fantastic CLI
