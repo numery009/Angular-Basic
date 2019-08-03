@@ -55,3 +55,21 @@ $ ng generate module app-routing ---- to generate module
 
 
 We can use state management like ngrx and redux with Angular for large apps
+
+
+# Installation Process
+
+1) Install the nodeJS -- sudo apt install nodejs
+2) Version check of nodeJS 
+        npm --version
+3) Install the Angular CLI -- sudo npm install -g @angular/cli
+4) Angular version check
+        ng --version
+        
+        
+ After creating a project we have to open the project on the visual studio. Then we will find the following files--
+ 
+ 1) Package.json -- It has all the dependencies and packages. (All the libraries will be available here. It also have scripts to       run and build the server.)
+ 
+ 2) Src -- This folder contains the main page. And that one is Index.html. This is the main page that load on the browser 
+    <app-root></app-root> this is the tag the root app component.
